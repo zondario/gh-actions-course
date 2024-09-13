@@ -32,3 +32,5 @@ jobs:
         with:
           push: true
           tags: ivotzenovprime/test:latest
+          cache-from: ivotzenovprime/test:latest
+          cache-to: type=inline
